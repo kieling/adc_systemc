@@ -1,0 +1,1 @@
+/usr/bin/c++    -fpermissive    CMakeFiles/sin_tlm_ams.dir/main.cpp.o CMakeFiles/sin_tlm_ams.dir/tuv_ams_library.cpp.o  -o ../bin/sin_tlm_ams -rdynamic /usr/local/systemc/lib-linux/libsystemc.so /usr/local/systemc-ams/lib-linux/libsystemc-ams.a -Wl,-rpath,/usr/local/systemc/lib-linux 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -fpermissive -std=c++0x    CMakeFiles/test_bench.dir/main.cpp.o  -o test_bench -rdynamic /usr/local/systemc/lib-linux/libsystemc.so /usr/local/systemc-ams/lib-linux/libsystemc-ams.a -Wl,-rpath,/usr/local/systemc/lib-linux 

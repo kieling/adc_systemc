@@ -1,0 +1,1 @@
+/vagrant/adc_systemc/tlm_adc_sin_example/src/CMakeFiles/sin_tlm_ams.dir

@@ -17,8 +17,9 @@
 using namespace TUV_ams_lib::bb;
 
 SCA_TDF_MODULE(drain) {
-	sca_tdf::sca_in<sc_bv<16> > in;SCA_CTOR(drain) {
-	}
+	sca_tdf::sca_in<sc_bv<16> > in;
+		SCA_CTOR(drain) {
+		}
 };
 
 int sc_main(int argc, char* argv[]) {
@@ -71,8 +72,8 @@ int sc_main(int argc, char* argv[]) {
 	drain drn("drn");
 	drn.in(sig_adc_out);
 
-	/* ***** tracning signals VCD and Tabular format***** 
-     With GTKwave tool using dataformat and analog extension settings the 
+	/* ***** tracning signals VCD and Tabular format*****
+     With GTKwave tool using dataformat and analog extension settings the
      analog signals can be viewed together with digital signals.
      For tabular format the gaw tool can be used to view analog signals
      http://gaw.tuxfamily.org/linux/gaw.php
@@ -104,4 +105,3 @@ int sc_main(int argc, char* argv[]) {
 
 	return 0;
 }
-
