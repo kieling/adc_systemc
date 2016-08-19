@@ -1,1 +1,1 @@
-/usr/bin/c++    -fpermissive    CMakeFiles/adc_systemc.dir/main.cpp.o CMakeFiles/adc_systemc.dir/master_adc.cpp.o CMakeFiles/adc_systemc.dir/slave_adc.cpp.o  -o ../bin/adc_systemc -rdynamic /usr/local/systemc/lib-linux/libsystemc.so /usr/local/systemc-ams/lib-linux/libsystemc-ams.a -Wl,-rpath,/usr/local/systemc/lib-linux 
+/usr/bin/c++    -fpermissive -std=c++0x    CMakeFiles/adc_systemc.dir/main.cpp.o  -o ../bin/adc_systemc -rdynamic /usr/local/systemc/lib-linux/libsystemc.so /usr/local/systemc-ams/lib-linux/libsystemc-ams.a -Wl,-rpath,/usr/local/systemc/lib-linux 

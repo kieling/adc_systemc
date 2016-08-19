@@ -1,5 +1,3 @@
-
-
 #include "adc.h"
 
 // Initiator module generating generic payload transactions
@@ -10,6 +8,8 @@ struct Master_ADC: sc_module
 
   // Internal data buffer used by initiator with generic payload
   int data;
+
+
 
   SC_CTOR(Master_ADC): socket("socket")  // Construct and name socket
   {
@@ -55,5 +55,17 @@ struct Master_ADC: sc_module
       wait(delay);
     }
   }
+
+	// Configure ADC (all registers), Prog Gain Amplifier (PGA), Sampling Time and Channel
+//	bool ADC_config(){
+//	}
+
+	// return current config
+//	bool ADC_getStatus(){
+//	}
+
+	// return the sampled data from ADC data register for a channel
+//	bool ADC_getData(){
+//	}
 
 };

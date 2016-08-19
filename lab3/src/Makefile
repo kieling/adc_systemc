@@ -136,54 +136,6 @@ main.cpp.s:
 	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-master_adc.o: master_adc.cpp.o
-.PHONY : master_adc.o
-
-# target to build an object file
-master_adc.cpp.o:
-	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/master_adc.cpp.o
-.PHONY : master_adc.cpp.o
-
-master_adc.i: master_adc.cpp.i
-.PHONY : master_adc.i
-
-# target to preprocess a source file
-master_adc.cpp.i:
-	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/master_adc.cpp.i
-.PHONY : master_adc.cpp.i
-
-master_adc.s: master_adc.cpp.s
-.PHONY : master_adc.s
-
-# target to generate assembly for a file
-master_adc.cpp.s:
-	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/master_adc.cpp.s
-.PHONY : master_adc.cpp.s
-
-slave_adc.o: slave_adc.cpp.o
-.PHONY : slave_adc.o
-
-# target to build an object file
-slave_adc.cpp.o:
-	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/slave_adc.cpp.o
-.PHONY : slave_adc.cpp.o
-
-slave_adc.i: slave_adc.cpp.i
-.PHONY : slave_adc.i
-
-# target to preprocess a source file
-slave_adc.cpp.i:
-	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/slave_adc.cpp.i
-.PHONY : slave_adc.cpp.i
-
-slave_adc.s: slave_adc.cpp.s
-.PHONY : slave_adc.s
-
-# target to generate assembly for a file
-slave_adc.cpp.s:
-	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/slave_adc.cpp.s
-.PHONY : slave_adc.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -196,12 +148,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... master_adc.o"
-	@echo "... master_adc.i"
-	@echo "... master_adc.s"
-	@echo "... slave_adc.o"
-	@echo "... slave_adc.i"
-	@echo "... slave_adc.s"
 .PHONY : help
 
 

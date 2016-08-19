@@ -101,7 +101,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=sin_tlm
+CMAKE_PROJECT_NAME:STATIC=adc
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
@@ -162,10 +162,10 @@ SYSTEMC_INCLUDE_DIR:PATH=/usr/local/systemc/include
 SYSTEMC_LIBRARY:FILEPATH=/usr/local/systemc/lib-linux/libsystemc.so
 
 //Value Computed by CMake
-sin_tlm_BINARY_DIR:STATIC=/vagrant/adc_systemc/lab3
+adc_BINARY_DIR:STATIC=/vagrant/adc_systemc/lab3
 
 //Value Computed by CMake
-sin_tlm_SOURCE_DIR:STATIC=/vagrant/adc_systemc/lab3
+adc_SOURCE_DIR:STATIC=/vagrant/adc_systemc/lab3
 
 
 ########################

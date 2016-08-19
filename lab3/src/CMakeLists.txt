@@ -1,8 +1,6 @@
 ADD_EXECUTABLE(adc_systemc
-                            main.cpp
-                            master_adc.cpp
-														slave_adc.cpp
-                            )
+                  main.cpp
+                  )
 
 target_link_libraries(adc_systemc
                     	${SYSTEMC_LIBRARIES}

@@ -9,9 +9,7 @@
 #ifndef _MODULES_H
 #define _MODULES_H
 
-
 #include <systemc-ams.h>
-
 
 using namespace std;
 
@@ -22,13 +20,13 @@ class amp: public sca_tdf::sca_module
     public:
         sca_tdf::sca_in<T> in;               // input port
         sca_tdf::sca_out<T> out;             // output port
-        
+
     private:
         T result, gain;
-                
-    
+
+
     void processing();
-        
+
     public:
         // The constructor of the module.
         amp(sc_core::sc_module_name n, T _gain=1)
@@ -43,7 +41,7 @@ void amp<T>::processing()
 {
   result=gain*in.read();
   out.write(result);
-        
+
 }
 
 // Generic class for adding offset
@@ -54,13 +52,13 @@ class add_offset: public sca_tdf::sca_module
 public:
     sca_tdf::sca_in<T> in;               // input port
     sca_tdf::sca_out<T> out;             // output port
-    
+
 private:
     T result, offset;
-    
-    
+
+
     void processing();
-    
+
 public:
     // The constructor of the module.
     add_offset(sc_core::sc_module_name n, T _offset=0)
@@ -74,9 +72,8 @@ void add_offset<T>::processing()
 {
     result=in.read()+offset;
     out.write(result);
-    
+
 }
 
 
 #endif
-
