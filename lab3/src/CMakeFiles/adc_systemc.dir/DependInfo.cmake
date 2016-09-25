@@ -5,6 +5,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/vagrant/adc_systemc/lab3/src/main.cpp" "/vagrant/adc_systemc/lab3/src/CMakeFiles/adc_systemc.dir/main.cpp.o"
+  "/vagrant/adc_systemc/lab3/src/tuv_ams_library.cpp" "/vagrant/adc_systemc/lab3/src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2007,16 +2007,12 @@ adc.h
 /vagrant/adc_systemc/lab3/src/adc.h
 
 include/adc.h
-systemc
-include/systemc
+systemc.h
+-
 systemc-ams.h
 -
 tuv_ams_library.h
--
-tlm_com.h
--
-ref_src.h
--
+include/tuv_ams_library.h
 conv_tdf_sc.h
 -
 tlm.h
@@ -2040,24 +2036,8 @@ include/modules.h
 systemc-ams.h
 -
 
-include/ref_src.h
-systemc-ams
--
-
 include/stimuli.h
 systemc-ams.h
--
-
-include/tlm_com.h
-tlm.h
-include/tlm.h
-tlm_utils/simple_initiator_socket.h
-include/tlm_utils/simple_initiator_socket.h
-tlm_utils/simple_target_socket.h
-include/tlm_utils/simple_target_socket.h
-systemc.h
-include/systemc.h
-systemc-ams
 -
 
 include/tuv_ams_library.h

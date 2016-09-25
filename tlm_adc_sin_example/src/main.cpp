@@ -50,9 +50,7 @@ int sc_main(int argc, char* argv[]) {
 	de2tdf.inDE(freq_val_de);
 	de2tdf.outTDF(freq_val_tdf);
 
-
 	/* ***** Defining signals and parameters ***** */
-
 	sca_tdf::sca_signal<double> sig_sin_out;
 	sca_tdf::sca_signal<sc_bv<16> > sig_adc_out;
 

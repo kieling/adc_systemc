@@ -136,6 +136,30 @@ main.cpp.s:
 	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tuv_ams_library.o: tuv_ams_library.cpp.o
+.PHONY : tuv_ams_library.o
+
+# target to build an object file
+tuv_ams_library.cpp.o:
+	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o
+.PHONY : tuv_ams_library.cpp.o
+
+tuv_ams_library.i: tuv_ams_library.cpp.i
+.PHONY : tuv_ams_library.i
+
+# target to preprocess a source file
+tuv_ams_library.cpp.i:
+	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.i
+.PHONY : tuv_ams_library.cpp.i
+
+tuv_ams_library.s: tuv_ams_library.cpp.s
+.PHONY : tuv_ams_library.s
+
+# target to generate assembly for a file
+tuv_ams_library.cpp.s:
+	cd /vagrant/adc_systemc/lab3 && $(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.s
+.PHONY : tuv_ams_library.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -148,6 +172,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tuv_ams_library.o"
+	@echo "... tuv_ams_library.i"
+	@echo "... tuv_ams_library.s"
 .PHONY : help
 
 

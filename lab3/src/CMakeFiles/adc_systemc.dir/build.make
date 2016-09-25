@@ -72,14 +72,39 @@ src/CMakeFiles/adc_systemc.dir/main.cpp.o.provides: src/CMakeFiles/adc_systemc.d
 
 src/CMakeFiles/adc_systemc.dir/main.cpp.o.provides.build: src/CMakeFiles/adc_systemc.dir/main.cpp.o
 
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o: src/CMakeFiles/adc_systemc.dir/flags.make
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o: src/tuv_ams_library.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /vagrant/adc_systemc/lab3/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o"
+	cd /vagrant/adc_systemc/lab3/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o -c /vagrant/adc_systemc/lab3/src/tuv_ams_library.cpp
+
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.i"
+	cd /vagrant/adc_systemc/lab3/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /vagrant/adc_systemc/lab3/src/tuv_ams_library.cpp > CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.i
+
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.s"
+	cd /vagrant/adc_systemc/lab3/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /vagrant/adc_systemc/lab3/src/tuv_ams_library.cpp -o CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.s
+
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.requires:
+.PHONY : src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.requires
+
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.provides: src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/adc_systemc.dir/build.make src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.provides.build
+.PHONY : src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.provides
+
+src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.provides.build: src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o
+
 # Object files for target adc_systemc
 adc_systemc_OBJECTS = \
-"CMakeFiles/adc_systemc.dir/main.cpp.o"
+"CMakeFiles/adc_systemc.dir/main.cpp.o" \
+"CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o"
 
 # External object files for target adc_systemc
 adc_systemc_EXTERNAL_OBJECTS =
 
 bin/adc_systemc: src/CMakeFiles/adc_systemc.dir/main.cpp.o
+bin/adc_systemc: src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o
 bin/adc_systemc: src/CMakeFiles/adc_systemc.dir/build.make
 bin/adc_systemc: /usr/local/systemc/lib-linux/libsystemc.so
 bin/adc_systemc: /usr/local/systemc-ams/lib-linux/libsystemc-ams.a
@@ -92,6 +117,7 @@ src/CMakeFiles/adc_systemc.dir/build: bin/adc_systemc
 .PHONY : src/CMakeFiles/adc_systemc.dir/build
 
 src/CMakeFiles/adc_systemc.dir/requires: src/CMakeFiles/adc_systemc.dir/main.cpp.o.requires
+src/CMakeFiles/adc_systemc.dir/requires: src/CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o.requires
 .PHONY : src/CMakeFiles/adc_systemc.dir/requires
 
 src/CMakeFiles/adc_systemc.dir/clean:

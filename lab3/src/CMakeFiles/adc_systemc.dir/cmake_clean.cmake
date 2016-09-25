@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/adc_systemc.dir/main.cpp.o"
+  "CMakeFiles/adc_systemc.dir/tuv_ams_library.cpp.o"
   "../bin/adc_systemc.pdb"
   "../bin/adc_systemc"
 )
